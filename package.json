@@ -1,0 +1,25 @@
+{
+  "name": "miniharmonyhollowbot",
+  "version": "1.0.0",
+  "description": "This bot has been made and developed with Discord.js.",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord.js": "^11.4.2",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowolfyt/MiniHarmonyHollowBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadowolfyt/MiniHarmonyHollowBot/issues"
+  },
+  "homepage": "https://github.com/shadowolfyt/MiniHarmonyHollowBot#readme"
+}
