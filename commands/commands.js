@@ -16,9 +16,8 @@ module.exports.run = async (client, message, args) => {
   let embed = new Discord.RichEmbed()
     .setTitle('Commands')
     .setDescription('All of the commands that I can do are listed here.')
-    .addField('test', 'Just a test command :)')
     .addField('installation', 'This is a guide that helps users install the Modpack via the Technic Launcher.')
-    .addField('mods', 'Provides the user a link to the Harmony Hollow mod list.')
+    .addField('information', 'Gives the user information about developement and the Mod List.')
   message.channel.send(embed);
   return
 };
