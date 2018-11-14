@@ -17,13 +17,13 @@ module.exports.run = async (client, message, args) => {
     .setTitle('Commands')
     .setDescription('All of the commands that I can do are listed here.')
     .addField('installation', 'This is a guide that helps users install the Modpack via the Technic Launcher.')
-    .addField('information', 'Gives the user information about developement and the Mod List.')
+    .addField('information', 'Gives the user information about development and the Mod List.')
   message.channel.send(embed);
   return
 };
 
 module.exports.help = {
   name: 'commands',
-  description: 'List all commnads that this bot has to offer.',
+  description: 'List all commands that this bot has to offer.',
   usage: `commands`
 };
