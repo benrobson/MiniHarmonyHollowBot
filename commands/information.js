@@ -14,9 +14,9 @@ module.exports.run = async (client, message, args) => {
   };
 
   let embed = new Discord.RichEmbed()
-    .setTitle('View the Mod List here')
+    .setTitle('View the mod list and other information.')
     .setURL('https://docs.google.com/spreadsheets/d/1655brAQn6xwUzrR6t3OXAhC_jpuQtjAIvJN6C9dnOJw/edit#gid=0')
-    .setDescription('Clicking the blue link will take you to the Harmony Hollow Spreadsheet where you will find all of the mods in the modpack.')
+    .setDescription('Clicking the blue link will take you to the Harmony Hollow Spreadsheet where you will find all of the mods in the modpack along with other information.')
   message.channel.send(embed);
   return
 };
