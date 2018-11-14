@@ -31,7 +31,7 @@ client.on('message', (message) => {
 
   let prefix = config.prefix;
   let messageArray = message.content.split(" ");
-  let cmd = messageArray[0];
+  let cmd = messageArray[0].equalsIgnoreCase;
   let args = messageArray.slice(1);
 
   if (!cmd.startsWith(prefix)) return;
