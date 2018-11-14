@@ -6,7 +6,8 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "discord.js": "^11.4.2",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "superagent": "^4.0.0-beta.5"
   },
   "devDependencies": {},
   "scripts": {

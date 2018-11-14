@@ -18,6 +18,7 @@ module.exports.run = async (client, message, args) => {
     .setDescription('All of the commands that I can do are listed here.')
     .addField('installation', 'This is a guide that helps users install the Modpack via the Technic Launcher.')
     .addField('information', 'Gives the user information about development and the Mod List.')
+    .addField('status', 'Display the current status of the server.')
   message.channel.send(embed);
   return
 };
