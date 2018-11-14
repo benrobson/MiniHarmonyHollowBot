@@ -22,7 +22,7 @@ module.exports.run = async (client, message, args) => {
 };
 
 module.exports.help = {
-  name: 'mods',
-  description: 'Gives the user a link to the Harmony Hollow Mod List',
-  usage: `mods`
+  name: 'information',
+  description: 'Gives the user information about developement and the Mod List.',
+  usage: `information`
 };
