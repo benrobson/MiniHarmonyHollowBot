@@ -8,7 +8,6 @@ module.exports = async client => {
   let pluralnonpluralusers = (client.users.size > 1) ? 'Users' : 'User';
 
   console.log(`\n\n${client.user.username} is online.\nOperating on ${client.guilds.size} ${pluralnonpluralservers}.\nOperating for ${client.users.size} ${pluralnonpluralusers}.\n`);
-  client.user.setActivity('Booting..');
   setActivity(); setInterval(setActivity, 60000);
 
   function setActivity() {
