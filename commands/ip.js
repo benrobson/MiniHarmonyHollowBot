@@ -14,18 +14,13 @@ module.exports.run = async (client, message, args) => {
   };
 
   let embed = new Discord.RichEmbed()
-    .setTitle('Commands')
-    .setDescription('All of the commands that I can do are listed here.')
-    .addField('guide', 'A command that allows you to list all guides avaliable.')
-    .addField('information', 'Gives the user information about development and the Mod List.')
-    .addField('status', 'Display the current status of the server.')
-    .addField('ip', 'Gives the user the IP address to the server.')
+    .setTitle(`The server ip address is ${process.env.minecraftserveraddress}`)
   message.channel.send(embed);
   return
 };
 
 module.exports.help = {
-  name: 'commands',
-  description: 'List all commands that this bot has to offer.',
-  usage: `commands`
+  name: 'ip',
+  description: 'Gives the user the IP address to the server.',
+  usage: `ip`
 };
